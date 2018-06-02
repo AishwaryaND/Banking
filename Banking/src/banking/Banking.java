@@ -189,7 +189,7 @@ public class Banking {
                         richestPersonAccNo = j;
                     }
                 }
-                //String name = customerArray.get(accountWithHighestBalance).customerName;
+                
                 System.out.println("The person with highest bank balance is : "+customerArray.get(richestPersonAccNo).custName+" With balance : "+max);
         }
         catch (ArrayIndexOutOfBoundsException b) {
